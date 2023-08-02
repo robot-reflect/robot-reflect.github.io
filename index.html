@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>REFLECT</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico?v=1"/>
 		<meta charset="utf-8" />
 		 <meta name="viewport" content="width=1000">
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,10 +21,57 @@
 			<div id="main" style="padding-bottom:1em; padding-top: 5em; width: 70em; max-width: 70em; margin-left: auto; margin-right: auto;">
 					<section id="four">
 
-						<h1 style="text-align: center; margin-bottom: 0; color: black; font-size: 225%; margin-bottom: 1em;"><span style="color:#4e79a7">REFLECT</span>: Summarizing <u style="color:#4e79a7">R</u>obot
+						<h1 style="text-align: center; margin-bottom: 0.5em; color: black; font-size: 225%;"><span style="color:#4e79a7">REFLECT</span>: Summarizing <u style="color:#4e79a7">R</u>obot
 							<br/><u style="color:#4e79a7">E</u>xperiences for <u style="color:#4e79a7">F</u>ai<u style="color:#4e79a7">L</u>ure <u style="color:#4e79a7">E</u>xplanation and <u style="color:#4e79a7">C</u>orrec<u style="color:#4e79a7">T</u>ion</h1>
-                        
-                        <p style="text-align: justify;">
+						
+						<h3 style="text-align: center; margin-bottom: -1em;">
+							<a href="https://lzylucy.github.io/">Zeyi Liu*</a> &nbsp&nbsp&nbsp&nbsp <a href="arpitrf.github.io">Arpit Bahety*</a> &nbsp&nbsp&nbsp&nbsp <a href="https://shurans.github.io/">Shuran Song</a> <br>
+							<p style="margin-top:0.5em; color: #4e79a7"> Columbia University in the City of New York </p>
+						</h3>
+
+						<div style="text-align:center; margin-bottom: 1em;">
+							<div>
+							  <!-- PDF Link. -->
+							  <span>
+								<a href="https://arxiv.org/pdf/2306.15724.pdf" class="button">
+								  <span class="icon">
+									<i class="fa fa-file-pdf-o"></i>
+								  </span>
+								  <span>Paper</span>
+								</a>
+							  </span>
+							  <span>
+								<a href="https://arxiv.org/abs/2306.15724" class="button">
+								  <span class="icon">
+									<i class="ai ai-arxiv"></i>
+								  </span>
+								  <span>arXiv</span>
+								</a>
+							  </span>
+							  <!-- Video Link. -->
+							  <span>
+								<a href="https://youtu.be/Proiua4NNTk" class="button">
+								  <span class="icon">
+									<i class="fa fa-youtube-play"></i>
+								  </span>
+								  <span>Video</span>
+								</a>
+							  </span>
+							  <!-- Code Link. -->
+							  <span>
+								<a href="https://github.com/columbia-ai-robotics/reflect" class="button">
+								  <span class="icon">
+									<i class="fa fa-github"></i>
+								  </span>
+								  <span>Code</span>
+								</a>
+							  </span>
+							  <!-- Dataset Link. -->
+			  
+							</div>
+						</div>
+
+						<p style="color:#5A5A5A; text-align: justify;">
                             The ability to detect and analyze failed executions automatically is crucial for an explainable and robust robotic system. Recently, Large Language Models (LLMs) have demonstrated strong common sense reasoning skills on textual inputs. To leverage the power of LLM for robot failure explanation, we propose a framework REFLECT, which converts multi-sensory data into a hierarchical summary of robot past experiences and queries LLM with a progressive failure explanation algorithm. Conditioned on the explanation, a failure correction planner generates an executable plan for the robot to correct the failure and complete the task. To systematically evaluate the framework, we create the RoboFail dataset and show that our LLM-based framework is able to generate informative failure explanations that assist successful correction planning. 
 						</p>
 
